@@ -2,6 +2,7 @@
 # atuin
 # clipboard
 # cosign
+# chezmoi
 # dbus-x11
 # direnv
 # eza
@@ -23,7 +24,6 @@ ncdu
 htop
 btop
 bat
-chezmoi
 neovim
 plocate
 emacs
