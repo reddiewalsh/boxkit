@@ -35,7 +35,7 @@ libtool
 cmake
 ranger
 zathura
-zathura-meta
+zathura-pdf-poppler
 vifm
 pass
 pinentry-gnome3
