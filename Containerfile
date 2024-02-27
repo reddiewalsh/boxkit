@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/fedora-project:39
+FROM docker.io/library/fedora:39
 
 LABEL com.github.containers.toolbox="true" \
       usage="This image is meant to be used with the toolbox or distrobox command" \
