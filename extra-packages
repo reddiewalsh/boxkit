@@ -1,31 +1,42 @@
+# Original boxkit items
+# atuin
+# clipboard
+# cosign
+# dbus-x11
+# direnv
+# eza
+# ffmpeg
+# fzf
+# github-cli
+# helix
+# just
+# ncurses
+# npm
+# speedtest-cli
+# starship
+# vimdiff
+# wl-clipboard
+# zellij
+
 age
-atuin
+ncdu
+htop
 btop
 bat
 chezmoi
-clipboard
-cosign
-dbus-x11
-direnv
-eza
-ffmpeg
-fzf
-github-cli
-helix
-just
-make
-micro
-ncdu
-ncurses
-neofetch
 neovim
-npm
 plocate
-python3
+emacs
 ripgrep
-speedtest-cli
-starship
-vimdiff
-wl-clipboard
-zellij
+fd-find
+maildir-utils
+isync
+libtool
+cmake
+ranger
+zathura
+zathura-meta
+vifm
+pass
+pinentry-gnome3
 zstd
