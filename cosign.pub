@@ -1,4 +1,9 @@
 -----BEGIN PUBLIC KEY-----
+<<<<<<< HEAD
 MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEjoPS1AvDe8yQBMcYfT8aUBXl624h
 O+cWo1v47NhSX4g0drfddoWxeacAGA45Xn93GN4SEqBh9kvhq2XJvVeS/A==
+=======
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEeAoX+8pr1LimFufOa7v/xrubIbc+
+dB7N/cUXBPJ6tcqLpUPsXKSJ1HT5GRT17ogcuTUBx9WcOr241TQwe9hCaQ==
+>>>>>>> bcce5c1 (change cosign keys)
 -----END PUBLIC KEY-----
