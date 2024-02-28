@@ -2,37 +2,30 @@
 
 ## Description
 
-boxkit is a set of GitHub actions and skeleton files to build toolbox and distrobox images. Basically, clone this repo, make the changes you want, and then build what you need. Some examples include:
+boxkit is a set of GitHub actions and skeleton files to build toolbox and distrobox images. Basically, clone this repo, make the changes you want, and then build what you need.
 
-- [DaVinci Box](https://github.com/zelikos/davincibox) - Container for DaVinci Resolve installation and runtime dependencies on Linux
-- [obs-studio-portable](https://github.com/ublue-os/obs-studio-portable) - OCI container image of OBS Studio that bundles a curated collection of 3rd party plugins
-- [bazzite-arch](https://github.com/ublue-os/bazzite-arch) - A ready-to-game Arch Linux based OCI designed for use exclusively in distrobox
+## Fedora-based Boxkit with Emacs
 
-## Boxkit Alpine Example
+This image is built on a Fedora base to provide a consistent and familiar experience for users of Fedora Silverblue and other Fedora Atomic Desktops.
 
-You can use whatever distribution you want with boxkit, this is the initial example ([here are more](https://github.com/ublue-os/bluefin/tree/main/toolboxes)):
+It's main purpose of the image is to be used as a general-purpose coding toolbox with a focus on Doom Emacs
+- Emacs
+  - fd
+  - ripgrep
+  - maildir-utils and isync (for mu4e)
+  - libtool and cmake (for vterm)
+- Neovim as an alternative editor.
+- Basic Utilities:
+  - ncdu
+  - btop & htop
+  - plocate
+  - bat
+- file management
+  - ranger
+  - vifm
+  - zathura (pdf reader)
+  
 
-A base image and action for Toolbx and Distrobox.
-Sure, you can use the distro you're used to, but what if ... 
-
-This image is going to experiment with what a "born from cloud native" UNIX terminal experience would look like. 
-It is used in conjuction with a [dotfile manager](https://dotfiles.github.io/utilities/) and designed to be the companion terminal experience for cloud-native desktops. 
-We're starting small but have big aspirations.
-
-- Starts with the latest Alpine image from the [Toolbx Community Images](https://github.com/toolbx-images/images)
-- Adds some quality of life
-  - `starship` prompt for that <3
-  - `just` for task execution
-  - `chezmoi` for dotfile management
-  - `btop` for process management
-  - `micro` and `helix` text editors
-  - [clipboard](https://github.com/Slackadays/Clipboard) to cut, copy, and paste anything, anywhere, all from the terminal! 
-  - `python3` 
-  - Some common power tools: `plocate`, `fzf`, `cosign`, `ripgrep`, `github-cli`, and `ffmpeg`
-  - CLI tools recommended by [rawkode](https://www.youtube.com/watch?v=TNlDSG1iDW8)
-    - [zellij](https://github.com/zellij-org/zellij) - terminal workspace
-    - [direnv](https://direnv.net/) - environment variable extension for your shell 
-    - [atuin](https://github.com/ellie/atuin) - magical shell history
 - Host Management QoL
   - These are meant for occasional one off commands, not complex workflows
     - Auto symlink the flatpak, podman, and docker commands
