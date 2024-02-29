@@ -1,13 +1,11 @@
 # Original boxkit items
-# atuin
+# atuin (Not in Repo)
 # clipboard
-# cosign
-# chezmoi
+# cosign (Not in Repo)
+# chezmoi (Not in Repo)
 # dbus-x11
 # direnv
-# eza
 # ffmpeg
-# fzf
 # github-cli
 # helix
 # just
@@ -15,15 +13,17 @@
 # npm
 # speedtest-cli
 # starship
-# vimdiff
+# vimdiff (Not in Repo)
 # wl-clipboard
-# zellij
+# zellij (Not in Repo)
 
 age
+eza
 ncdu
 htop
 btop
 bat
+fzf
 neovim
 plocate
 emacs
@@ -39,4 +39,5 @@ zathura-pdf-poppler
 vifm
 pass
 pinentry-gnome3
+tmux
 zstd
