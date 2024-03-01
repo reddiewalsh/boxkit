@@ -1,4 +1,5 @@
 # Original boxkit items
+# atuin (Not in Repo)
 # clipboard
 # cosign (Not in Repo)
 # chezmoi (Not in Repo)
@@ -17,9 +18,6 @@
 # zellij (Not in Repo)
 
 age
-eza
-ncdu
-htop
 btop
 bat
 chezmoi
