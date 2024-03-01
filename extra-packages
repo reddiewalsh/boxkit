@@ -1,6 +1,7 @@
 # Original boxkit items
 # clipboard
 # cosign (Not in Repo)
+# chezmoi (Not in Repo)
 # dbus-x11
 # direnv
 # ffmpeg
@@ -13,34 +14,29 @@
 # starship
 # vimdiff (Not in Repo)
 # wl-clipboard
+# zellij (Not in Repo)
 
 age
-atuin
+eza
+ncdu
+htop
 btop
 bat
-chezmoi
-cmake
-eza
-emacs-gtk3
-fd
 fzf
-git
-htop
+neovim
+plocate
+emacs
+ripgrep
+fd-find
+maildir-utils
 isync
 libtool
-mu4e
-ncdu
-neovim
-pass
-pinentry-gnome
-plocate
-python3-devel
+cmake
 ranger
-ripgrep
-tmux
-vifm
-vpm
 zathura
 zathura-pdf-poppler
-zellij
+vifm
+pass
+pinentry-gnome3
+tmux
 zstd
