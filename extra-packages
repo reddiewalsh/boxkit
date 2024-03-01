@@ -2,7 +2,6 @@
 # atuin (Not in Repo)
 # clipboard
 # cosign (Not in Repo)
-# chezmoi (Not in Repo)
 # dbus-x11
 # direnv
 # ffmpeg
@@ -15,29 +14,31 @@
 # starship
 # vimdiff (Not in Repo)
 # wl-clipboard
-# zellij (Not in Repo)
 
 age
-eza
-ncdu
-htop
 btop
 bat
-fzf
-neovim
-plocate
+chezmoi
+cmake
+eza
 emacs
-ripgrep
-fd-find
-maildir-utils
+fd
+fzf
+htop
 isync
 libtool
-cmake
-ranger
-zathura
-zathura-pdf-poppler
-vifm
+mu4e
+ncdu
+neovim
 pass
 pinentry-gnome3
+plocate
+ranger
+ripgrep
 tmux
+vifm
+vpm
+zathura
+zathura-pdf-poppler
+zellij
 zstd
