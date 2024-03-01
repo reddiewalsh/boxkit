@@ -21,7 +21,7 @@ bat
 chezmoi
 cmake
 eza
-emacs
+emacs-gtk3
 fd
 fzf
 htop
