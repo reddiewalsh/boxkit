@@ -22,6 +22,11 @@ ncdu
 htop
 btop
 bat
+chezmoi
+cmake
+eza
+emacs
+fd
 fzf
 neovim
 plocate
