@@ -36,7 +36,12 @@ fd-find
 maildir-utils
 isync
 libtool
-cmake
+mu4e
+ncdu
+neovim
+pass
+pinentry-gnome
+plocate
 ranger
 zathura
 zathura-pdf-poppler
