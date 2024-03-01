@@ -33,6 +33,7 @@ neovim
 pass
 pinentry-gnome
 plocate
+python3-devel
 ranger
 ripgrep
 tmux
