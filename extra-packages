@@ -1,5 +1,4 @@
 # Original boxkit items
-# atuin (Not in Repo)
 # clipboard
 # cosign (Not in Repo)
 # dbus-x11
@@ -16,6 +15,7 @@
 # wl-clipboard
 
 age
+atuin
 btop
 bat
 chezmoi
