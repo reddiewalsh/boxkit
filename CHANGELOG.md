@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.1](https://github.com/reddiewalsh/boxkit/compare/v1.0.0...v1.0.1) (2024-03-02)
+
+
+### Features
+
+* add atuin to package list ([4ad26ac](https://github.com/reddiewalsh/boxkit/commit/4ad26acd1eea29659e4cfa032477cdfa5e000820))
+* add distrobox deps to speed init ([08c2bf2](https://github.com/reddiewalsh/boxkit/commit/08c2bf28175b96ca284933c5abb99e58df3a1f21))
+* add python build deps ([e5dea5f](https://github.com/reddiewalsh/boxkit/commit/e5dea5f04c197d17574c6fb9c56cd7e793943c89))
+* Switch to Void Linux for larger package list ([d106805](https://github.com/reddiewalsh/boxkit/commit/d1068057864dbd2b4ce4a8c75db2950cef7e0789))
+
 ## 1.0.0 (2024-02-27)
 
 
