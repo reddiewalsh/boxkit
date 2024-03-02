@@ -5,9 +5,11 @@ LABEL com.github.containers.toolbox="true" \
       summary="A cloud-native terminal experience" \
       maintainer="r.eddie.walsh@gmail.com"
 
+COPY distrobox-deps /
 COPY extra-packages /
 RUN dnf upgrade --refresh -y && \
-    grep -v '^#' /extra-packages | xargs dnf install -y
+    grep -v '^#' /distrobox-deps | xargs dnf install -y --allow-erasing
+RUN grep -v '^#' /extra-packages | xargs dnf install -y
 RUN rm /extra-packages
 
 #RUN   ln -fs /bin/sh /usr/bin/sh && \
