@@ -8,7 +8,7 @@ LABEL com.github.containers.toolbox="true" \
 COPY distrobox-deps /
 COPY extra-packages /
 RUN dnf upgrade --refresh -y && \
-    grep -v '^#' /distrobox-deps | xargs dnf install -y --allow-erasing
+    grep -v '^#' /distrobox-deps | xargs dnf install -y --allowerasing
 RUN grep -v '^#' /extra-packages | xargs dnf install -y
 RUN rm /extra-packages /distrobox-deps
 
