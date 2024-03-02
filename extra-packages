@@ -20,11 +20,10 @@
 age
 btop
 bat
-chezmoi
 cmake
 eza
 emacs
-fd
+fd-find
 fzf
 neovim
 plocate
@@ -34,11 +33,11 @@ fd-find
 maildir-utils
 isync
 libtool
-mu4e
+maildir-utils
 ncdu
 neovim
 pass
-pinentry-gnome
+pinentry-gnome3
 plocate
 ranger
 zathura
