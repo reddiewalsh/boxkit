@@ -10,8 +10,7 @@ COPY extra-packages /
 RUN dnf upgrade --refresh -y && \
     grep -v '^#' /distrobox-deps | xargs dnf install -y --allow-erasing
 RUN grep -v '^#' /extra-packages | xargs dnf install -y
-RUN rm /distrobox-deps
-RUN rm /extra-packages
+RUN rm /extra-packages /distrobox-deps
 
 #RUN   ln -fs /bin/sh /usr/bin/sh && \
 #      ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/flatpak && \
